@@ -59,11 +59,11 @@ service user-api {
 	//	@doc "用户登录"
 	//	@handler login
 	//	post /user/login (LoginReq) returns (LoginRes)
-
+	
 	@doc "用户注册"
 	@handler register
 	get /user/register (RegisterReq) returns (CommonRes)
-
+	
 	// @doc "查询用户信息"
 	// @handler findUser
 	// get /user/findUser (FindUserReq) returns (FindUserRes)
