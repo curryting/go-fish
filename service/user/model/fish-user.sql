@@ -1,4 +1,4 @@
-CREATE TABLE `wx_user` (
+CREATE TABLE `fish_user` (
                            `id` bigint NOT NULL AUTO_INCREMENT,
                            `username` varchar(255)  NOT NULL DEFAULT '' COMMENT 'username',
                            `password` varchar(255)  NOT NULL DEFAULT '' COMMENT 'password',
